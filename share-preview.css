@@ -1,0 +1,12 @@
+.share-preview{
+    background-color: #222630;
+    color: #ffffff;
+  }
+
+.preview-button{
+    color: #ffffff;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

@@ -1,0 +1,1 @@
+chrome.action.onClicked.addListener(r);function r(e){var t;if(!(!e||((t=e.url)==null?void 0:t.startsWith("chrome://"))))return Promise.all([chrome.scripting.executeScript({target:{tabId:e.id,allFrames:!0},files:["./src/pages/content/index.js"]}),chrome.scripting.insertCSS({target:{tabId:e.id,allFrames:!0},files:["./assets/css/contentStyle16939931685.chunk.css"]})])}
